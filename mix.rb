@@ -1,7 +1,3 @@
-puts 'Hello there, and what\'s your first name?'
-first = gets.chomp
-puts 'What\'s your middle name?'
-middle = gets.chomp
-puts 'What\'s your last name?'
-last = gets.chomp
-puts 'Hello ' + first + ' ' + middle + ' '+last+ ' nice to meet you :)'
+puts 'what is your favorite number?'
+input = gets.chomp.to_i
+puts 'Here is your new favorite number ' + (input + 1).to_s + ' it\'s bigger so it\'s better >P'
