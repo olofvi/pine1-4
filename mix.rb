@@ -1,4 +1,7 @@
-puts 'Hello there, and what\'s your name?'
-name = gets.chomp
-puts 'Your name is ' + name + '? What a lovely name!'
-puts 'Pleased to meet you, ' + name + '. :)'
+puts 'Hello there, and what\'s your first name?'
+first = gets.chomp
+puts 'What\'s your middle name?'
+middle = gets.chomp
+puts 'What\'s your last name?'
+last = gets.chomp
+puts 'Hello ' + first + ' ' + middle + ' '+last+ ' nice to meet you :)'
